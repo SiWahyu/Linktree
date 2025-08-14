@@ -32,7 +32,7 @@ export default function LinkList() {
   ];
   return (
     <>
-      <div className="bg-gray-950 min-h-screen ">
+      <div className="bg-gray-950 min-h-screen">
         <div className="flex min-h-screen items-center flex-col justify-center gap-4">
           <h1 className="text-4xl font-bold text-white font-mono ">Kunjungi</h1>
           <div className=" grid grid-cols-12 gap-4 p-4 justify-self-center w-full">
