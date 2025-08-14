@@ -20,7 +20,7 @@ const Banner = () => {
       <div className="flex items-center justify-center text-white relative z-10 pointer-events-none">
         <section className="grid h-screen place-content-center ">
           <div className="mx-auto w-screen sm:place-items-center-safe md:place-items-stretch  max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 md:grid md:grid-cols-2 md:items-center md:gap-4 lg:px-8 lg:py-32">
-            <div className="block -mt-24  md:hidden">
+            <div className="block -mt-36  md:hidden">
               {/* <ImageBanner /> */}
               <Lanyard position={[0, 0, 20]} gravity={[0, -40, 0]} />
             </div>
@@ -30,7 +30,7 @@ const Banner = () => {
               easing="ease-out"
               initialOpacity={0}
             >
-              <div className="max-w-prose md:text-left flex flex-col items-center md:items-start -mt-36 md:mt-0  ">
+              <div className="max-w-prose md:text-left flex flex-col items-center md:items-start -mt-32 md:mt-0">
                 <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl dark:text-white">
                   Hai! Ini Ceritanya
                   <div className="flex flex-wrap gap-3 mt-2">
