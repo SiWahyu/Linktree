@@ -20,9 +20,9 @@ const Banner = () => {
       <div className="flex items-center justify-center text-white relative z-10 pointer-events-none">
         <section className="grid h-screen place-content-center ">
           <div className="mx-auto w-screen sm:place-items-center-safe md:place-items-stretch  max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 md:grid md:grid-cols-2 md:items-center md:gap-4 lg:px-8 lg:py-32">
-            <div className="block -mt-36  md:hidden">
+            <div className="block -mt-36  md:hidden pointer-events-auto">
               {/* <ImageBanner /> */}
-              <Lanyard position={[0, 0, 20]} gravity={[0, -40, 0]} />
+              <Lanyard position={[0, 0, 24]} gravity={[0, -40, 0]} />
             </div>
             <FadeContent
               blur={true}
@@ -52,7 +52,7 @@ const Banner = () => {
                 </div>
               </div>
             </FadeContent>
-            <div className="hidden md:block md:-mt-24">
+            <div className="hidden md:block md:-mt-24 pointer-events-auto">
               <Lanyard position={[0, 0, 20]} gravity={[0, -40, 0]} />
               {/* <ImageBanner /> */}
             </div>
