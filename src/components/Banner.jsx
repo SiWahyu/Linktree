@@ -30,7 +30,7 @@ const Banner = () => {
               easing="ease-out"
               initialOpacity={0}
             >
-              <div className="max-w-prose md:text-left flex flex-col items-center md:items-start -mt-32 md:mt-0">
+              <div className="max-w-prose md:text-left flex flex-col items-center md:items-start -mt-36 md:mt-0">
                 <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl dark:text-white">
                   Hai! Ini Ceritanya
                   <div className="flex flex-wrap gap-3 mt-2">
